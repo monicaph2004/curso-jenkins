@@ -15,7 +15,7 @@ public class Greeter {
   /*
    * Se pone un comentario para quitar el TODO que había antes.
    * @param someone Se indica un valor
-   * @return devuelve la cadena Hello, con el nombre dado en el parámetro someone
+   * @return devuelve la cadena "Hello, someone"
    */
   public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
